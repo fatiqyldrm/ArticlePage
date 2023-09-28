@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: inline-table;
+	padding: 60px;
+	width: 500px;
+	gap: 12px;
+}
+
+.container .item {
+	padding: 80px;
+	width: 1200px;
+	border-width: 10px;
+	border-radius: 20px;
+	border-color: white;
+	border-style: solid;
+}
