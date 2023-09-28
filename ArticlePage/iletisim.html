@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>İletişim</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jscript.js"></script>
+	<style>
+		body {
+			background-color: black;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+	</style>
+</head>
+<body background="resim1.png">
+	<ul>
+	  <li><a href="">Makaleler</a>
+	  	   <ul>
+	      <li><a href="">Makale Ekle</a></li>
+	      <li><a href="">Makaleler</a></li>
+	      <li><a href="">Makale Detay</a></li>
+	    </ul></li>
+
+	  <li><a href="">Dersler</a>
+	  	   <ul>
+	      <li><a href="">Ders Ekle</a></li>
+	      <li><a href="">Dersler</a></li>   
+	    </ul></li>
+
+	  <li><a href="hobi.html">Hobiler</a></li>
+	  <li><a href="hakkimda.html">Hakkımda</a></li>
+	  <li><a class="aktif" href="iletisim.html">İletişim</a></li>
+	  <label id="giristext"></label>
+	  <a href="login.html"><button class="button" id="loginbutonu">Login</button></a>
+	</ul>
+	<center>
+	<p id="iletisim">İletişim</p>
+    <hr>
+	<form action="iletisim.html" method="post" autocomplete="off" novalidate="0" id="iletisimform"> 
+		<table>
+			<tr>
+				<td>Adınız: </td>
+				<td><input type="text" name="ad" placeholder="Ör. Fatih"></td>
+			</tr>
+			<tr>
+				<td>Soyadınız: </td>
+				<td><input type="text" name="soyad" placeholder="Ör. Yıldırım"></td>
+			</tr>
+				<tr>
+				<td>Email: </td>
+				<td><input type="email" name="email" placeholder="ornek@gmail.com"></td>
+			</tr>
+				<tr>
+				<td>Telefon: </td>
+				<td><input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="5xx xxx xx xx"></td>
+			</tr>
+			<tr>
+				<td>Mesajınız: </td>
+				<td><textarea style="width: 248px; height: 100px; font-size: 16px"></textarea></td>
+			</tr>
+			<tr>
+				<td>Dosyanız: </td>
+				<td><input type="file" name="file" style="width: 244px; font-size: 18px;"></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="reset" name="reset" value="Temizle"></td>
+				<td align="center"><input type="submit" name="submit" value="Gönder" onclick="alert('Mesajınız başarıyla iletilmiştir.')"></td>
+			</tr>
+		</table>
+	</form>
+	<a href="https://www.instagram.com/yildirim.fath/" target="_blank"><img src="insta.png" style="width: 45px; height: 45px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/fatigyldrm/" target="_blank"><img src="twit.png" style="width: 45px; height: 45px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="mailto:fyildirim459@gmail.com" target="_blank"><img src="gmail.png" style="width: 45px; height: 45px;"></a>
+	</center>
+</body>
+</html>

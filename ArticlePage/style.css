@@ -1,0 +1,185 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 7px;
+    overflow: hidden;
+    background-color: #060845;
+    font-family: Audiowide, sans-serif;
+    border-radius: 8px;
+}
+
+li {
+    display:inline-block;
+    width: 150px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+li a:hover{
+    background-color: #33E0FF;
+    color: black;
+    font-weight: bold;
+    font-family: Audiowide, sans-serif;
+}
+
+li a:hover:not(.aktif){
+    background-color: #33E0FF;
+}
+
+.aktif{
+    background-color: #33E0FF;
+    color: black;
+    font-weight: bold;
+    font-family: Audiowide, sans-serif;
+}
+
+ul li ul {
+    background-color:#060845;
+    display:none;
+    position:absolute;
+    width:140px
+}
+
+ul li:hover ul{
+    display:block;
+    width:140px
+}
+li ul li {
+    display:block;
+    width:140px
+}
+
+.button {
+    background-color: #33E0FF;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Sedgwick Ave', cursive;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 7px;
+}
+
+ul button {
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+
+ul label {
+    position: absolute;
+    right: 170px;
+    top: 28px;
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+ul a button:hover {
+    background-color: #33E0FF;
+    font-weight: bold;
+    border-radius: 55px;
+}
+
+#labelstil1{
+    font-size: 19px;
+    font-family: Audiowide, sans-serif;
+    font-weight: bold;
+    color: #060845;
+}
+
+#labelstil2{
+    font-size: 19px;
+    font-family: Audiowide, sans-serif;
+    font-weight: bold;
+    color: #33E0FF;
+}
+
+#labeltext{
+    font-size: 19px;
+    font-family: Audiowide, sans-serif;
+    font-weight: bold;
+    color: #33E0FF;
+}
+
+#loginDiv
+{
+    width: 350px;
+    margin: auto;
+    display: block;
+    padding: 5px;
+    font-family: Audiowide, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#loginDiv td
+{
+    width: 50%;
+}
+
+#loginDiv td input
+{
+    color: black;
+    font-size: 19px;
+    background-color: #33E0FF;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.lgBtn
+{
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+    display: block;
+    font-family: Audiowide, sans-serif;
+    background-color: #33E0FF;
+    padding: 5px;
+}
+
+
+#loginDiv td .lgBtn:hover{
+    font-weight: bold;
+    border-radius: 19px;
+    font-size: 19px;
+    transition-duration: 0.6s;
+}
+
+#iletisim{
+    margin: 40px; 
+    padding: 40px; 
+    font-size: 40px; 
+    font-weight: bold; 
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+#iletisimform{
+    margin: 40px; 
+    padding: 40px; 
+    font-size: 27px
+}
+
+#iletisimform td input{
+    color: white;
+    font-size: 19px;
+    background-color: #060845;
+    border-radius: 9px;
+    padding: 5px;
+    width: 94%;
+}
+
+#iletisimform td{
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+}

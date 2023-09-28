@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Sayfası</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jscript.js"></script>
+	<style>
+		body {
+			background-color: black;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+	</style>
+</head>
+<body background="resim1.png">
+	<ul>
+	  <li><a href="">Makaleler</a>
+	  	   <ul>
+	      <li><a href="">Makale Ekle</a></li>
+	      <li><a href="">Makaleler</a></li>
+	      <li><a href="">Makale Detay</a></li>
+	    </ul></li>
+
+	  <li><a href="">Dersler</a>
+	  	   <ul>
+	      <li><a href="">Ders Ekle</a></li>
+	      <li><a href="">Dersler</a></li>   
+	    </ul></li>
+
+	  <li><a href="hobi.html">Hobiler</a></li>
+	  <li><a href="hakkimda.html">Hakkımda</a></li>
+	  <li><a href="iletisim.html">İletişim</a></li>
+	  <label id="giristext"></label>
+	  <a href="login.html"><button class="button" id="loginbutonu" onclick="Log(this)">Login</button></a>
+	</ul>
+
+	<center>
+	<br>	<br>	<br>	<br>	<br>	<br>	<br>
+	<br>	<br>	<br>	<br>	<br>	<br>	<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;<label id="labeltext" style="font-size: 28px; color: white;">Giriş Yap</label>
+</center>
+<br>
+<center>
+<div id="loginDiv">
+	
+	<table>
+		<tr>
+			<td>Username: </td>
+			<td>
+				<input type="text" id="uName">
+			</td>
+		</tr>
+		<tr>
+			<td>Password: </td>
+			<td>
+				<input type="Password" id="pWord">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" onclick="Log(this)" class="lgBtn" name="btnLgn" value="Login" required>
+			</td>
+		</tr>
+	</table>
+
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<label id="labeltext1" style="font-size: 28px; color: white;"></label>
+</center>
+</body>
+</html>
